@@ -30,7 +30,7 @@ app.use(flash());
 
 app.set("view engine", "ejs");
 app.set("views", "./views")
-app.list(PORT)
+app.listen(PORT)
 //connect mongoosejs
 var mongoose = require('mongoose');
 //'mongodb+srv://admin:admin@cluster0.jc001.mongodb.net/NodeJs?retryWrites=true&w=majority'
